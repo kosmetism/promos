@@ -34,6 +34,21 @@ body {
   cursor: default;
 }
 
+.overlay {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+  z-index: 1;
+  opacity: .6;
+}
+
 .app {
   max-width: 420px;
   width: 100%;
@@ -59,12 +74,18 @@ body {
   }
 
   .socials {
+    display: table;
     position: fixed;
     right: 30px;
     top: 0;
     bottom: 0;
     height: 100%;
     z-index: 2;
+
+    &-inner {
+      display: table-cell;
+      vertical-align: middle;
+    }
 
     a {
       display: block;
@@ -74,6 +95,10 @@ body {
       position: relative;
       font-size: 24px;
       margin-top: 10px;
+      transition: color .2s ease-in;
+      &:hover {
+        color: #3C9A97;
+      }
     }
   }
 }

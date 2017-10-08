@@ -24,18 +24,20 @@
   <meta name="twitter:creator" content="{{meta.twitter}}" />
 
   {# prefetch resources #}
-  <link rel='dns-prefetch' href='//s3.amazonaws.com' />
-  <link rel='dns-prefetch' href='//www.youtube.com' />
-  <link rel='dns-prefetch' href='//player.vimeo.com' />
-  <link rel='dns-prefetch' href='//w.soundcloud.com' />
-  <link rel='dns-prefetch' href='//ajax.googleapis.com' />
-  <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+  <link rel="dns-prefetch" href="//s3.amazonaws.com" />
+  <link rel="dns-prefetch" href="//www.youtube.com" />
+  <link rel="dns-prefetch" href="//player.vimeo.com" />
+  <link rel="dns-prefetch" href="//w.soundcloud.com" />
+  <link rel="dns-prefetch" href="//ajax.googleapis.com" />
+  <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="//netdna.bootstrapcdn.com" />
 
   <link rel="icon" href="{{icon}}">
 
   <link rel="stylesheet" href="{{css}}">
 </head>
 <body>
+  <div class="overlay"></div>
   <div class="app">
     <img src="{{coverLink}}" />
     <h2 class="title text">
@@ -46,11 +48,13 @@
     </div>
 
     <div class="socials">
+      <div class="socials-inner">
       {% for service, link in links %}
         <a href="{{link}}" target="_blank" class="service">
           <i class="fa fa-{{service}}"></i>
         </a>
       {% endfor %}
+      </div>
     </div>
   </div>
 
