@@ -9,6 +9,11 @@
 
   <link rel="canonical" href="{{meta.url}}" />
 
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  {# remove after adding domain #}
+  <meta name="robots" content="nofollow,noindex">
+
   {# facebook meta #}
   <meta property="og:type" content="{{meta.type}}" />
   <meta property="og:title" content="{{title}}" />
@@ -38,22 +43,30 @@
 </head>
 <body>
   <div class="overlay"></div>
-  <div class="app">
-    <img src="{{coverLink}}" />
-    <h2 class="title text">
-      {{texts.title}}
-    </h2>
-    <div class="desc text">
-      {{texts.desc}}
-    </div>
 
-    <div class="socials">
-      <div class="socials-inner">
-      {% for service, link in links %}
-        <a href="{{link}}" target="_blank" class="service">
-          <i class="fa fa-{{service}}"></i>
-        </a>
-      {% endfor %}
+  <div class="app">
+    <div class="app-inner">
+      <div class="socials">
+        <div class="socials-inner">
+        {% for service, link in links %}
+          <a href="{{link}}" target="_blank" class="service">
+            <i class="fa fa-{{service}}"></i>
+          </a>
+        {% endfor %}
+        </div>
+      </div>
+
+      <div class="content">
+        <img src="{{coverLink}}" />
+        <h2 class="title text">
+          {{texts.title}}
+        </h2>
+        <div class="desc text">
+          {{texts.desc}}
+        </div>
+        <div class="box text">
+          {{texts.out}}
+        </div>
       </div>
     </div>
   </div>
