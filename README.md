@@ -1,4 +1,4 @@
-# promos
+# Promos
 
 > Promo pages for my personal music projects.
 
