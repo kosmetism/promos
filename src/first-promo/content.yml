@@ -1,13 +1,13 @@
 title: "H A G H O R R O R – Der Neue Kult – Debut single available soon to stream and download."
 description: "H A G H O R R O R's Official Website including the latest music, albums, songs, music videos and updates"
-icon: "https://s3-eu-west-1.amazonaws.com/haghorror.com/assets/icon.png"
+icon: "https://s3-eu-west-1.amazonaws.com/kosmetism.xyz/haghorror/assets/icon.png"
 meta:
-  url: "https://haghorror.com"
+  url: "https://kosmetism.xyz/haghorror"
   type: "website"
-  previewImg: "https://s3-eu-west-1.amazonaws.com/haghorror.com/assets/promo.png"
-  twitter: "@haghorror"
+  previewImg: "https://s3-eu-west-1.amazonaws.com/kosmetism.xyz/haghorror/assets/first-promo-demo.gif"
+  twitter: "@voronianski"
 
-coverLink: "https://s3-eu-west-1.amazonaws.com/haghorror.com/assets/cover-very-slow.gif"
+coverLink: "https://s3-eu-west-1.amazonaws.com/kosmetism.xyz/haghorror/assets/cover-very-slow.gif"
 
 texts:
   title: "\"Der Neue Kult\""
@@ -16,7 +16,9 @@ texts:
 
 links:
   facebook: "https://facebook.com/kosmetism"
-  twitter: "https://twitter.com/haghorror"
-  soundcloud: "https://soundcloud.com/kosmetism"
-  spotify: "#"
-  apple: "#"
+  twitter: "https://twitter.com/voronianski"
+  soundcloud: "https://soundcloud.com/ksmtk"
+  bandcamp: "https://kosmetism.bandcamp.com"
+  envelope: "mailto:ksmtk.ksmtk@gmail.com"
+  # spotify: "#"
+  # apple: "#"
