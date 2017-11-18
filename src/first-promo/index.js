@@ -1,5 +1,5 @@
-const $preview = document.getElementById('preview');
 const $form = document.getElementById('form');
+const $preview = document.getElementById('preview');
 const $password = document.getElementById('password');
 
 $form.addEventListener('submit', e => {
