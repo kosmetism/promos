@@ -1,5 +1,13 @@
-console.log('first promo');
+const $preview = document.getElementById('preview');
+const $form = document.getElementById('form');
+const $password = document.getElementById('password');
 
-if (process.env.NODE_ENV === 'production') {
-  console.log('prod');
-}
+$form.addEventListener('submit', e => {
+  e.preventDefault();
+
+  // yes, it's fake secret! ^.^
+  if ($password.value === window._phrase) {
+    $form.style.display = 'none';
+    $preview.style.display = 'block';
+  }
+});

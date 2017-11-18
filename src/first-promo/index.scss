@@ -6,7 +6,7 @@ $fa-font-path: "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts" !defau
 
 $color: #fff;
 $bgcolor: #000;
-$green: #3C9A97;
+$green: #53BBC7;
 $serif: 'Playfair Display';
 $sans: 'Montserrat', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
 
@@ -69,10 +69,58 @@ body {
   }
 
   .content {
-    max-width: 480px;
-    width: 100%;
+    max-width: 800px;
+    width: 80%;
     margin: 0 auto;
-    padding: 25px;
+    position: relative;
+    overflow: hidden;
+
+    .form {
+      margin: 20px auto 60px;
+      .text {
+        font-size: 11px;
+        letter-spacing: 2px;
+      }
+      .password {
+        display: block;
+        background-color: #252627;
+        border: 0;
+        color: #fff;
+        font-size: 13px;
+        font-family: $sans;
+        font-weight: 500;
+        max-width: 220px;
+        width: 100%;
+        height: 40px;
+        outline: none;
+        padding: 0px 20px;
+        vertical-align: middle;
+        -webkit-appearance: none;
+        border-radius: 50px;
+        margin: 20px auto;
+      }
+    }
+
+    &-inner {
+      display: table;
+      width: 100%;
+      table-layout: fixed;
+      border-spacing: 30px;
+      position: relative;
+
+      &-block {
+        display: table-cell;
+        width: 2%;
+        vertical-align: middle;
+        text-align: center;
+
+        @media screen and (max-width: 736px) {
+          display: block;
+          width: 100%;
+          margin-top: 20px;
+        }
+      }
+    }
 
     img {
       width: 100%;
@@ -89,6 +137,7 @@ body {
       @media screen and (max-width: 420px) {
         font-size: 30px;
         letter-spacing: 2px;
+        margin-top: 0;
       }
     }
 
