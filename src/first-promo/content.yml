@@ -1,13 +1,13 @@
 title: "H A G H O R R O R – Der Neue Kult – Debut single available soon to stream and download."
 description: "H A G H O R R O R's Official Website including the latest music, albums, songs, music videos and updates"
-icon: "https://s3-eu-west-1.amazonaws.com/kosmetism.space/haghorror/assets/der-neue-kult-new-cover.png"
+icon: "https://kosmetism.space/haghorror/assets/der-neue-kult-new-cover.png"
 meta:
   url: "https://kosmetism.space/haghorror"
   type: "website"
-  previewImg: "https://s3-eu-west-1.amazonaws.com/kosmetism.space/haghorror/assets/der-neue-kult-promo-screen.png"
+  previewImg: "https://kosmetism.space/haghorror/assets/der-neue-kult-promo-screen.png"
   twitter: "@voronianski"
 
-coverLink: "https://s3-eu-west-1.amazonaws.com/kosmetism.space/haghorror/assets/der-neue-kult-new-cover-very-slow.gif"
+coverLink: "https://kosmetism.space/haghorror/assets/der-neue-kult-new-cover-very-slow.gif"
 
 texts:
   title: "\"Der Neue Kult\""
@@ -20,7 +20,6 @@ secret: "derneuekult"
 
 links:
   facebook: "https://facebook.com/kosmetism"
-  # instagram: "https://instagram.com/kosmetism"
   soundcloud: "https://soundcloud.com/kosmetism"
   bandcamp: "https://kosmetism.bandcamp.com"
   spotify: "https://open.spotify.com/artist/33c0biwtC9I3A7H63cjEda"
