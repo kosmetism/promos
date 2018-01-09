@@ -1,16 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Fugaz+One|Montserrat|Passion+One:400,700|Playfair+Display:400,700,900|Righteous);
 @import 'normalize/import-now';
 
 $fa-font-path: "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts" !default;
 @import 'font-awesome';
 
-$color: #fff;
-// $bgcolor: #000;
+$color: #121416;
 $bgcolor: #FC98BE;
 $red: #E84737;
 $green: #38BC5D;
-$serif: 'Playfair Display';
-$sans: 'Montserrat', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
 
 html {
   box-sizing: border-box;
@@ -31,7 +27,6 @@ body {
 body {
   color: $color;
   background-color: $bgcolor;
-  font-family: $sans;
 }
 
 .text {
@@ -53,7 +48,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  opacity: .2;
+  opacity: .05;
 }
 
 .overlay-glitch {
@@ -76,6 +71,12 @@ body {
   top: 10px;
   right: 10px;
   z-index: 2;
+
+  @media screen and (max-width: 736px) {
+    top: 0;
+    right: -30px;
+    transform: scale(.6);
+  }
 }
 
 .app {
@@ -92,7 +93,7 @@ body {
   }
 
   .content {
-    max-width: 460px;
+    max-width: 520px;
     width: 80%;
     margin: 0 auto;
     position: relative;
@@ -150,7 +151,7 @@ body {
     margin-top: 10px;
     transition: color .2s ease-in;
     &:hover {
-      color: #121212;
+      color: $color;
     }
 
     @media screen and (max-width: 736px) {
