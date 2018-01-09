@@ -7,7 +7,8 @@ $fa-font-path: "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts" !defau
 $color: #fff;
 // $bgcolor: #000;
 $bgcolor: #FC98BE;
-$green: #53BBC7;
+$red: #E84737;
+$green: #38BC5D;
 $serif: 'Playfair Display';
 $sans: 'Montserrat', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
 
@@ -52,7 +53,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 1;
+  opacity: .2;
 }
 
 .overlay-glitch {
@@ -91,7 +92,7 @@ body {
   }
 
   .content {
-    max-width: 800px;
+    max-width: 460px;
     width: 80%;
     margin: 0 auto;
     position: relative;
@@ -105,16 +106,9 @@ body {
       position: relative;
 
       &-block {
-        display: table-cell;
-        width: 2%;
-        vertical-align: middle;
+        width: 100%;
+        margin-top: 20px;
         text-align: center;
-
-        @media screen and (max-width: 736px) {
-          display: block;
-          width: 100%;
-          margin-top: 20px;
-        }
       }
     }
 
@@ -123,4 +117,67 @@ body {
       border-radius: 2px;
     }
   }
+}
+
+.socials {
+  display: table;
+  position: fixed;
+  right: 30px;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  z-index: 2;
+
+  @media screen and (max-width: 736px) {
+    position: relative;
+    right: 0;
+    height: initial;
+    margin: 15px auto 0;
+  }
+
+  &-inner {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    font-size: 24px;
+    margin-top: 10px;
+    transition: color .2s ease-in;
+    &:hover {
+      color: #121212;
+    }
+
+    @media screen and (max-width: 736px) {
+      float: left;
+      margin: 0 0 0 15px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation-name: fadeIn;
 }

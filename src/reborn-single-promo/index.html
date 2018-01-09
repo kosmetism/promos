@@ -40,13 +40,13 @@
 
   <link rel="stylesheet" href="{{css}}">
 </head>
-<body>
+<body class="animated fade-in">
   <div class="overlay-bg" style="background-image: url({{backgroundImageLink}})"></div>
   <div class="overlay-glitch"></div>
 
   <div class="app">
     <div class="app-inner">
-      <!-- div class="socials">
+      <div class="socials">
         <div class="socials-inner">
         {% for service, link in links %}
           <a href="{{link}}" target="_blank" class="service">
@@ -54,7 +54,7 @@
           </a>
         {% endfor %}
         </div>
-      </div -->
+      </div>
 
       <div class="content">
         <div id="preview" class="content-inner">
@@ -63,8 +63,9 @@
           </div>
           <div class="content-inner-block">
             <div class="player">
-              <iframe style="border: 0; width: 100%; height: 355px; border-radius: 2px;" src="https://bandcamp.com/EmbeddedPlayer/track=708586851/size=large/bgcol=ffffff/linkcol=53bbc7/artwork=none/transparent=true/" seamless><a href="http://kosmetism.bandcamp.com/track/reborn">Reborn (feat. Madelyn Darling) by Ksmtk</a></iframe>
-              {# iframe width="100%" height="355" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/364439569%3Fsecret_token%3Ds-e2wqm&amp;color=%2353bbc7&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;show_teaser=false&amp;show_artwork=false&amp;visual=false"></iframe> #}
+              {#<iframe style="border: 0; width: 100%; height: 80px; border-radius: 2px;" src="https://bandcamp.com/EmbeddedPlayer/track=708586851/size=small/bgcol=ffffff/linkcol=E84737/artwork=none/transparent=true/" seamless><a href="http://kosmetism.bandcamp.com/track/reborn">Reborn (feat. Madelyn Darling) by Ksmtk</a></iframe>#}
+
+              <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/368935559%3Fsecret_token%3Ds-MvjZD&amp;color=%23e84737&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
             </div>
           </div>
         </div>
