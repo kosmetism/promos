@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Fugaz+One|Montserrat|Passion+One:400,700|Playfair+Display:400,700,900|Righteous);
+@import 'normalize/import-now';
+
+$fa-font-path: "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts" !default;
+@import 'font-awesome';
+
+$color: #fff;
+// $bgcolor: #000;
+$bgcolor: #FC98BE;
+$green: #53BBC7;
+$serif: 'Playfair Display';
+$sans: 'Montserrat', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: $color;
+  background-color: $bgcolor;
+  font-family: $sans;
+}
+
+.text {
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  user-select: none;
+  cursor: default;
+}
+
+.overlay-bg {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.overlay-glitch {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+  z-index: 100;
+  opacity: .5;
+}
+
+.follow-widget {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+}
+
+.app {
+  display: table;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  &-inner {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+  }
+
+  .content {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+
+    &-inner {
+      display: table;
+      width: 100%;
+      table-layout: fixed;
+      border-spacing: 30px;
+      position: relative;
+
+      &-block {
+        display: table-cell;
+        width: 2%;
+        vertical-align: middle;
+        text-align: center;
+
+        @media screen and (max-width: 736px) {
+          display: block;
+          width: 100%;
+          margin-top: 20px;
+        }
+      }
+    }
+
+    img {
+      width: 100%;
+      border-radius: 2px;
+    }
+  }
+}
