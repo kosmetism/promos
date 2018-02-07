@@ -43,7 +43,52 @@
 <body>
   <div class="overlay-glitch"></div>
 
-  <h1>welcome</h1>
+  <div class="menu">
+  {% for key, item in menu %}
+    <a href="{{item.link}}" class="menu-item {% if item.active %}active{% endif %}">
+      {{item.title}}
+    </a>
+  {% endfor %}
+  </div>
+
+  <div class="wrapper">
+  {% for post in news %}
+    <div class="post">
+      {% if post.title %}
+      <h1 class="title">{{post.title}}</h1>
+      {% endif %}
+
+      {% if post.image %}
+        {% if post.imageLink %}<a href="{{post.imageLink}}" class="image-link" target="_blank">{% endif %}
+        <img src="{{post.image}}" class="image" />
+        {% if post.imageLink %}</a>{% endif %}
+      {% endif %}
+
+      {% if post.youtube %}
+        <div class="youtube-embed">
+          <iframe width="100%" height="315" src="{{post.youtube}}?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+      {% endif %}
+
+      {% if post.text %}
+        <div class="text">{{post.text | safe}}</div>
+      {% endif %}
+
+      {% if post.links %}
+        <div class="links">
+        {% for link in post.links %}
+          <a href="{{link}}">{{link}}</a>
+        {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+
+    <div class="soundcloud-tracks">
+      <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/302074024&amp;color=%23f63527&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false&amp;visual=true"></iframe>
+    </div>
+  </div>
+
 
   <script src="{{js}}"></script>
 

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node ./bin/build",
+    "server": "node ./bin/server",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "author": "Dmitri Voronianski <dmitri.voronianski@gmail.com>",
@@ -17,6 +18,7 @@
     "babelify": "^7.3.0",
     "browserify": "^14.4.0",
     "envify": "^4.1.0",
+    "express": "^4.16.2",
     "font-awesome": "^4.7.0",
     "fs-extra": "^4.0.2",
     "node-sass": "^4.5.3",
