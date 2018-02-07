@@ -33,7 +33,7 @@ menu:
     title: "Contact"
     link: "mailto:ping@kosmetism.space"
 news:
-  - title: "Waves of Synth Vol. 1 compilation released on Bandcamp!"
+  - title: "Waves of Synth Vol. 1 compilation released on Bandcamp on 01/02/2018"
     image: "https://f4.bcbits.com/img/a2013962356_10.jpg"
     imageLink: "https://waves-of-synth.bandcamp.com/album/waves-of-synth-volume-1"
     text: "Proud to be involved in it with H A G H O R R O R - \"Lost Sanctuaries\". <br />Besides that it contains a huge number of great tracks from talented synthwave producers from all around the world."
@@ -43,9 +43,20 @@ news:
   - title: "New \"Reborn\" single out on 10/01/2018"
     image: "https://f4.bcbits.com/img/a2551813638_10.jpg"
     imageLink: "https://kosmetism.space/ksmtk"
-    text: "Features guest vocals from Madelyn Darling"
+    text: "New version of the track features guest vocals and lyrics from <a href='https://madelyndarling.bandcamp.com'>Madelyn Darling</a>."
     links:
       - https://kosmetism.bandcamp.com/track/reborn-feat-madelyn-darling
-      - https://madelyndarling.bandcamp.com
-  - title: "H A G H O R R O R interview for Identical Records"
-  - title: "Der Neue Kult - debut single by H A G H O R R O R is on 17.11.2017!"
+      - https://open.spotify.com/album/7eawvvrchHynCubovBCxJN
+      - https://itunes.apple.com/us/album/reborn-feat-madelyn-darling/1332349202
+  - title: "Interview for Identical Records"
+    text: "Answered few questions about debut H A G H O R R O R release, music and movies."
+    links:
+      - https://www.identicalrecords.com/haghorror
+  - title: "H A G H O R R O R debut single out on 17/11/2017"
+    image: "https://f4.bcbits.com/img/a3983791241_10.jpg"
+    imageLink: "https://kosmetism.space/haghorror"
+    text: "First release from my darkwave alter ego. Consider it a soundtrack for some imaginary thriller suspense movie. Features remix by <a href='https://starfounder.bandcamp.com'>Starfounder</a>."
+    links:
+      - https://kosmetism.bandcamp.com/album/der-neue-kult
+      - https://open.spotify.com/album/6UwvAKWnM8y4Nq7Y7ccRaS
+      - https://itunes.apple.com/us/album/der-neue-kult-ep/1312458863
