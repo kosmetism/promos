@@ -11,6 +11,9 @@ menu:
     title: "News"
     link: "#"
     active: true
+  about:
+    title: "About"
+    link: "#"
   releases:
     title: "Releases"
     link: "#"
@@ -42,7 +45,7 @@ news:
   - youtube: "https://www.youtube.com/embed/UnH7onxbjxo"
   - title: "New \"Reborn\" single out on 10/01/2018"
     image: "https://f4.bcbits.com/img/a2551813638_10.jpg"
-    imageLink: "https://kosmetism.space/ksmtk"
+    imageLink: "https://kosmetism.bandcamp.com/track/reborn-feat-madelyn-darling"
     text: "New version of the track features guest vocals and lyrics from <a href='https://madelyndarling.bandcamp.com'>Madelyn Darling</a>."
     links:
       - https://kosmetism.bandcamp.com/track/reborn-feat-madelyn-darling
@@ -54,7 +57,7 @@ news:
       - https://www.identicalrecords.com/haghorror
   - title: "H A G H O R R O R debut single out on 17/11/2017"
     image: "https://f4.bcbits.com/img/a3983791241_10.jpg"
-    imageLink: "https://kosmetism.space/haghorror"
+    imageLink: "https://kosmetism.bandcamp.com/album/der-neue-kult"
     text: "First release from my darkwave alter ego. Consider it a soundtrack for some imaginary thriller suspense movie. Features remix by <a href='https://starfounder.bandcamp.com'>Starfounder</a>."
     links:
       - https://kosmetism.bandcamp.com/album/der-neue-kult

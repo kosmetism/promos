@@ -86,7 +86,8 @@ a {
 }
 
 .wrapper {
-  width: 520px;
+  max-width: 520px;
+  width: 90%;
   margin: 80px 20px;
   .post {
     margin-bottom: 50px;
@@ -117,7 +118,11 @@ a {
         color: $red;
         font-size: 12px;
         margin-bottom: 3px;
+        word-wrap: break-word;
       }
     }
+  }
+  .soundcloud-tracks {
+    margin-bottom: 50px;
   }
 }
