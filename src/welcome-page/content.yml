@@ -9,14 +9,14 @@ meta:
 menu:
   news:
     title: "News"
-    link: "#"
+    link: "/"
     active: true
   about:
     title: "About"
-    link: "#"
+    link: "/about"
   releases:
     title: "Releases"
-    link: "#"
+    link: "/releases"
   tumblr:
     title: "Tumblr"
     link: "https://kosmetism.tumblr.com"
@@ -55,6 +55,7 @@ news:
     text: "Answered few questions about debut H A G H O R R O R release, music and movies."
     links:
       - https://www.identicalrecords.com/haghorror
+  - youtube: "https://www.youtube.com/embed/5dPNAVIdBqg"
   - title: "H A G H O R R O R debut single out on 17/11/2017"
     image: "https://f4.bcbits.com/img/a3983791241_10.jpg"
     imageLink: "https://kosmetism.bandcamp.com/album/der-neue-kult"
@@ -63,3 +64,13 @@ news:
       - https://kosmetism.bandcamp.com/album/der-neue-kult
       - https://open.spotify.com/album/6UwvAKWnM8y4Nq7Y7ccRaS
       - https://itunes.apple.com/us/album/der-neue-kult-ep/1312458863
+  - youtube: "https://www.youtube.com/embed/DdmYD1iBLOE"
+    text: "Video features rare Berlin footage, as well as scenes from old-school anime movie \"Phoenix 2772\" (1980)."
+  - title: "Ksmtk debut single out on 25/07/2017"
+    image: "https://f4.bcbits.com/img/a2795674967_10.jpg"
+    imageLink: "https://kosmetism.bandcamp.com/track/chronemics"
+    text: "Nostalgic and a bit melancholic track inspired by the spirit of late 70s Tangerine Dream works \"Force Majeur\" (1979) and \"Exit\" (1981)."
+    links:
+      - https://kosmetism.bandcamp.com/track/chronemics
+      - https://open.spotify.com/album/4naAvgkycVxqgS84QeXNkr
+      - https://itunes.apple.com/us/album/chronemics/id1263497841
