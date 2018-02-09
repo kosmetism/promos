@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}" />
+
+  <link rel="canonical" href="{{meta.url}}" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  {# facebook meta #}
+  <meta property="og:type" content="{{meta.type}}" />
+  <meta property="og:title" content="{{title}}" />
+  <meta property="og:url" content="{{meta.url}}" />
+  <meta property="og:site_name" content="{{title}}" />
+  <meta property="og:image" content="{{meta.previewImg}}" />
+
+  {# twitter meta #}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{title}}" />
+  <meta name="twitter:site" content="{{meta.twitter}}" />
+  <meta name="twitter:image" content="{{meta.previewImg}}" />
+  <meta name="twitter:creator" content="{{meta.twitter}}" />
+
+  {# prefetch resources #}
+  <link rel="dns-prefetch" href="//s3.amazonaws.com" />
+  <link rel="dns-prefetch" href="//www.youtube.com" />
+  <link rel="dns-prefetch" href="//player.vimeo.com" />
+  <link rel="dns-prefetch" href="//w.soundcloud.com" />
+  <link rel="dns-prefetch" href="//ajax.googleapis.com" />
+  <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="//netdna.bootstrapcdn.com" />
+
+  <link rel="icon" href="{{icon}}">
+
+  <link rel="stylesheet" href="{{css}}">
+</head>
+<body>
+  <div class="overlay-glitch"></div>
+
+  <div class="menu">
+  {% for key, item in menu %}
+    <a href="{{item.link}}" class="menu-item {% if item.active %}active{% endif %}">
+      {{item.title}}
+    </a>
+  {% endfor %}
+  </div>
+
+  <div class="wrapper clearfix">
+  {% for release in releases %}
+    <div class="release">
+      <img src="{{release.image}}" class="image" />
+      <h2 class="title">{{release.title | safe}}</h2>
+      <h3 class="alter-ego">{{release.project}}</h3>
+      <div class="label">{{release.label}}</div>
+      <div class="date">{{release.date}}</div>
+      <div class="links">
+      {% for name, link in release.links %}
+        <a href="{{link}}">{{name}}</a>
+      {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+
+  <!-- Google Analytics -->
+  <script src="https://www.googletagmanager.com/gtag/js?id=UA-19962496-12"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-19962496-12');
+  </script>
+</body>
+</html>

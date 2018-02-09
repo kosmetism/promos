@@ -1,0 +1,100 @@
+title: "Ksmtk / H A G H O R R O R's Official Website including the latest music, albums, songs, music videos and updates"
+description: "Ksmtk / H A G H O R R O R's Official Website including the latest music, albums, songs, music videos and updates"
+icon: "https://kosmetism.space/assets/avatar.png"
+meta:
+  url: "https://kosmetism.space"
+  type: "website"
+  previewImg: "#"
+  twitter: "@voronianski"
+menu:
+  news:
+    title: "News"
+    link: "/"
+  about:
+    title: "About"
+    link: "/about"
+  releases:
+    title: "Releases"
+    link: "/releases"
+    active: true
+  tumblr:
+    title: "Tumblr"
+    link: "https://kosmetism.tumblr.com"
+  facebook:
+    title: "Facebook"
+    link: "https://facebook.com/kosmetism"
+  instagram:
+    title: "Instagram"
+    link: "https://instagram.com/kosmetism"
+  soundcloud:
+    title: "Soundcloud"
+    link: "https://soundcloud.com/kosmetism"
+  bandcamp:
+    title: "Bandcamp"
+    link: "https://kosmetism.bandcamp.com"
+  contact:
+    title: "Contact"
+    link: "mailto:ping@kosmetism.space"
+releases:
+  - title: "You Can Dance"
+    project: "Ksmtk"
+    image: "https://f4.bcbits.com/img/a0534730252_10.jpg"
+    date: "13/02/2018"
+    label: "self-released"
+    type: "maxi-single"
+    links:
+      'Vinyl (QRATES)': "https://qrates.com/artists/kosmetism/items/15170"
+      'Spotify': ""
+      'iTunes': ""
+      'Google Play': ""
+    formats:
+      - digital
+      - vinyl (qrates campaign)
+  - title: "Reborn (feat. Madelyn Darling)"
+    project: "Ksmtk"
+    image: "https://f4.bcbits.com/img/a2551813638_10.jpg"
+    date: "10/01/2018"
+    label: "self-released"
+    type: "single"
+    links:
+      'Spotify': "https://open.spotify.com/album/7eawvvrchHynCubovBCxJN"
+      'iTunes': "https://itunes.apple.com/us/album/reborn-feat-madelyn-darling/1332349202"
+      'Google Play': "https://play.google.com/store/music/album/Ksmtk_Reborn_feat_Madelyn_Darling?id=Botjjyz3m7336g4vtnercgt2toy"
+    formats:
+      - digital
+  - title: "Der Neue Kult"
+    project: "H A G H O R R O R"
+    image: "https://f4.bcbits.com/img/a3983791241_10.jpg"
+    date: "17/11/2017"
+    label: "self-released"
+    type: "maxi-single"
+    links:
+      'Spotify': "https://open.spotify.com/album/6UwvAKWnM8y4Nq7Y7ccRaS"
+      'iTunes': "https://itunes.apple.com/us/album/der-neue-kult-ep/1312458863"
+      'Google Play': "https://play.google.com/store/music/album/H_A_G_H_O_R_R_O_R_Der_Neue_Kult?id=Bjtsp333benbtq2wmdfbwssntvm"
+    formats:
+      - digital
+  - title: "Reborn (Instrumental)"
+    project: "Ksmtk"
+    image: "https://f4.bcbits.com/img/a1152655429_10.jpg"
+    date: "08/09/2017"
+    label: "self-released"
+    type: "single"
+    links:
+      'Spotify': "https://open.spotify.com/album/5iGUAccOVTFP1wivxSKr2z"
+      'iTunes': "https://itunes.apple.com/us/album/reborn-single/id1279677535"
+      'Google Play': "https://play.google.com/store/music/album/Ksmtk_Reborn?id=Bf4bmg4h7tv76v43i2rec3bwco4"
+    formats:
+      - digital
+  - title: "Chronemics"
+    project: "Ksmtk"
+    image: "https://f4.bcbits.com/img/a2795674967_10.jpg"
+    date: "25/07/2017"
+    label: "self-released"
+    type: "single"
+    links:
+      'Spotify': "https://open.spotify.com/album/4naAvgkycVxqgS84QeXNkr"
+      'iTunes': "https://itunes.apple.com/us/album/chronemics-single/id1263497841"
+      'Google Play': "https://play.google.com/store/music/album/Ksmtk_Chronemics?id=Bw2dsjzl3eo6ygtswxqdgsbhnpa"
+    formats:
+      - digital
