@@ -92,43 +92,28 @@ a {
 }
 
 .wrapper {
-  max-width: 520px;
+  max-width: 120px;
   width: 90%;
   margin: 80px 20px;
-  .post {
-    margin-bottom: 50px;
-    .title {
-      font-size: 20px;
-      font-weight: 500;
-      font-style: italic;
-      letter-spacing: .5px;
-      margin: 0 auto 15px;
+  .about {
+    .image {
+      width: 120px;
     }
-    .image-link {
-      display: block;
-    }
-    .image,
-    .youtube-embed {
-      width: 100%;
-      margin: 6px auto;
-    }
-    .text {
-      font-size: 13px;
+    .text,
+    .title,
+    .contact {
+      font-size: 12px;
       font-weight: 400;
-      margin: 6px auto;
-      line-height: 1.5;
-    }
-    .links {
       a {
-        display: block;
         color: $red;
-        font-size: 12px;
-        margin-bottom: 3px;
         word-wrap: break-word;
       }
     }
-  }
-  .soundcloud-tracks {
-    margin-bottom: 50px;
+    .title {
+      text-transform: uppercase;
+    }
+    .contact {
+      width: 145px;
+    }
   }
 }

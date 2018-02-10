@@ -9,7 +9,7 @@ meta:
 menu:
   news:
     title: "News"
-    link: "/"
+    link: "/news"
   about:
     title: "About"
     link: "/about"

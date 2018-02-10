@@ -57,7 +57,7 @@
       <img src="{{release.image}}" class="image" />
       <h2 class="title">{{release.title | safe}}</h2>
       <h3 class="alter-ego">{{release.project}}</h3>
-      <div class="label">{{release.label}}</div>
+      <div class="label">{{release.type}} / {{release.label}}</div>
       <div class="date">{{release.date}}</div>
       <div class="links">
       {% for name, link in release.links %}

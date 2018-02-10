@@ -1,0 +1,43 @@
+title: "Ksmtk / H A G H O R R O R's Official Website including the latest music, albums, songs, music videos and updates"
+description: "Ksmtk / H A G H O R R O R's Official Website including the latest music, albums, songs, music videos and updates"
+icon: "https://kosmetism.space/assets/avatar.png"
+meta:
+  url: "https://kosmetism.space"
+  type: "website"
+  previewImg: "#"
+  twitter: "@voronianski"
+menu:
+  news:
+    title: "News"
+    link: "/news"
+  about:
+    title: "About"
+    link: "/about"
+    active: true
+  releases:
+    title: "Releases"
+    link: "/releases"
+  tumblr:
+    title: "Tumblr"
+    link: "https://kosmetism.tumblr.com"
+  facebook:
+    title: "Facebook"
+    link: "https://facebook.com/kosmetism"
+  instagram:
+    title: "Instagram"
+    link: "https://instagram.com/kosmetism"
+  soundcloud:
+    title: "Soundcloud"
+    link: "https://soundcloud.com/kosmetism"
+  bandcamp:
+    title: "Bandcamp"
+    link: "https://kosmetism.bandcamp.com"
+  contact:
+    title: "Contact"
+    link: "mailto:ping@kosmetism.space"
+about:
+  title: www.kosmetism.space
+  text: >
+    <p>This website is a collection of updates from electronic acts Ksmtk and <br />H A G H O R R O R.</p>
+    <p>Both are personas created by Dmitri Voronianski, currently based in Berlin.</p>
+  contact: For more info, contact <a href="mailto:ping@kosmetism.space">ping@kosmetism.space</a>
