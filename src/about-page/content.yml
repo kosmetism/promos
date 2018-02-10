@@ -4,7 +4,7 @@ icon: "https://kosmetism.space/assets/avatar.png"
 meta:
   url: "https://kosmetism.space"
   type: "website"
-  previewImg: "#"
+  previewImg: "https://kosmetism.space/assets/about-page.png"
   twitter: "@voronianski"
 menu:
   news:
