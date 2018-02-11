@@ -36,6 +36,7 @@ menu:
     title: "Contact"
     link: "mailto:ping@kosmetism.space"
 news:
+  - youtube: "https://www.youtube.com/embed/woZ3jfa2pJA"
   - image: "https://kosmetism.space/assets/ksmtk-you-can-dance-qrates-v2.jpg"
     imageLink: "https://qrates.com/artists/kosmetism/items/15170"
   - title: "Italo wave \"You Can Dance\" out on 13/02/2018"
