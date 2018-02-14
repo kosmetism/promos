@@ -36,15 +36,17 @@ menu:
     title: "Contact"
     link: "mailto:ping@kosmetism.space"
 news:
-  - youtube: "https://www.youtube.com/embed/woZ3jfa2pJA"
   - image: "https://kosmetism.space/assets/ksmtk-you-can-dance-qrates-v2.jpg"
     imageLink: "https://qrates.com/artists/kosmetism/items/15170"
+  - youtube: "https://www.youtube.com/embed/woZ3jfa2pJA"
   - title: "Italo wave \"You Can Dance\" out on 13/02/2018"
     image: "https://f4.bcbits.com/img/a0534730252_10.jpg"
     imageLink: "https://kosmetism.bandcamp.com/album/you-can-dance"
-    text: "Buongiorno! Ksmtk's new record is italo disco inspired maxi-single. Two out of four tracks are remixes that were done by <a href='https://vincenzosalvia.bandcamp.com'>Vincenzo Salvia</a> and <a href='https://awitw.bandcamp.com'>AWITW</a>. Moreover <a href='https://qrates.com/artists/kosmetism/items/15170'>limited edition 12\" yellow vinyl</a> is available for pre-order via QRATES."
+    text: "Ciao, ragazzi! Ksmtk's new record is italo disco inspired maxi-single. Two out of four tracks are remixes that were done by <a href='https://vincenzosalvia.bandcamp.com'>Vincenzo Salvia</a> and <a href='https://awitw.bandcamp.com'>AWITW</a>. Moreover <a href='https://qrates.com/artists/kosmetism/items/15170'>limited edition 12\" yellow vinyl</a> is available for pre-order via QRATES."
     links:
       - https://kosmetism.bandcamp.com/album/you-can-dance
+      - https://open.spotify.com/album/6Ih8wh0Ok9AJNCVGt6L6G5
+      - https://itunes.apple.com/us/album/you-can-dance-ep/1347285031
   - title: "Waves of Synth Vol. 1 compilation released on Bandcamp on 01/02/2018"
     image: "https://f4.bcbits.com/img/a2013962356_10.jpg"
     imageLink: "https://waves-of-synth.bandcamp.com/album/waves-of-synth-volume-1"
