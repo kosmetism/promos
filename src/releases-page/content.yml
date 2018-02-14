@@ -44,9 +44,9 @@ releases:
     type: "maxi-single"
     links:
       'Vinyl (QRATES)': "https://qrates.com/artists/kosmetism/items/15170"
-      'Spotify': ""
-      'iTunes': ""
-      'Google Play': ""
+      'Spotify': "https://open.spotify.com/album/6Ih8wh0Ok9AJNCVGt6L6G5"
+      'iTunes': "https://itunes.apple.com/us/album/you-can-dance-ep/1347285031"
+      'Google Play': "https://play.google.com/store/music/album/Ksmtk_You_Can_Dance?id=Bntbxwh3o7kq3m2r5ka6iftgnpa"
     formats:
       - digital
       - vinyl (qrates campaign)
