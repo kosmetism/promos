@@ -36,6 +36,20 @@ menu:
     title: "Contact"
     link: "mailto:ping@kosmetism.space"
 releases:
+  - title: "The Bedroom Tapes"
+    project: "H A G H O R R O R"
+    image: "https://f4.bcbits.com/img/a0454798269_10.jpg"
+    date: "15/03/2018"
+    label: "Black Verb Records"
+    type: "ep"
+    links:
+      'Cassette Tape': "https://blackverbrecords.bandcamp.com/album/the-bedroom-tapes"
+      'Spotify': "#"
+      'iTunes': "#"
+      'Google Play': "#"
+    formats:
+      - digital
+      - cassette
   - title: "You Can Dance"
     project: "Ksmtk"
     image: "https://f4.bcbits.com/img/a0534730252_10.jpg"
