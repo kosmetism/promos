@@ -44,9 +44,9 @@ releases:
     type: "ep"
     links:
       'Cassette Tape': "https://blackverbrecords.bandcamp.com/album/the-bedroom-tapes"
-      'Spotify': "#"
-      'iTunes': "#"
-      'Google Play': "#"
+      'Spotify': "https://open.spotify.com/album/4XJ61Tuq9ydQwDMbpjIFWm"
+      'iTunes': "https://itunes.apple.com/us/album/the-bedroom-tapes-ep/1355932816"
+      'Google Play': "https://play.google.com/store/music/album/H_A_G_H_O_R_R_O_R_The_Bedroom_Tapes?id=Bqbr4yerngjuljrfebeesfo6ddu"
     formats:
       - digital
       - cassette

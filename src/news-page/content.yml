@@ -36,6 +36,14 @@ menu:
     title: "Contact"
     link: "mailto:ping@kosmetism.space"
 news:
+  - title: "\"The Bedroom Tapes\" EP is out on 15/03/2017"
+    image: "https://f4.bcbits.com/img/0012790641_10.jpg"
+    imageLink: "https://blackverbrecords.bandcamp.com/album/the-bedroom-tapes"
+    text: "5 tracks release took place on <a href='https://blackverbrecords.bandcamp.com'>Black Verb Records</a>. Available as limited edition cassette as well as digital formats, and featuring artwork by <a href='http://ericadrianleedesign.tumblr.com'>Eric Adrian Lee</a>."
+    links:
+      - https://blackverbrecords.bandcamp.com/album/the-bedroom-tapes
+      - https://open.spotify.com/album/4XJ61Tuq9ydQwDMbpjIFWm
+      - https://itunes.apple.com/us/album/the-bedroom-tapes-ep/1355932816
   - image: "https://kosmetism.space/assets/ksmtk-you-can-dance-qrates-v2.jpg"
     imageLink: "https://qrates.com/artists/kosmetism/items/15170"
   - youtube: "https://www.youtube.com/embed/woZ3jfa2pJA"
