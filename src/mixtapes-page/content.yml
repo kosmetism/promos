@@ -1,0 +1,57 @@
+title: "Ksmtk / H A G H O R R O R's Official Website including the latest music, albums, songs, music videos and updates"
+description: "Ksmtk / H A G H O R R O R's Official Website including the latest music, albums, songs, music videos and updates"
+icon: "https://kosmetism.space/assets/avatar.png"
+meta:
+  url: "https://kosmetism.space"
+  type: "website"
+  previewImg: "https://kosmetism.space/assets/mixtapes-page.png"
+  twitter: "@voronianski"
+menu:
+  news:
+    title: "News"
+    link: "/news"
+  about:
+    title: "About"
+    link: "/about"
+  releases:
+    title: "Releases"
+    link: "/releases"
+  mixtapes:
+    title: "Mixtapes"
+    link: "/mixtapes"
+    active: true
+  tumblr:
+    title: "Tumblr"
+    link: "https://kosmetism.tumblr.com"
+  facebook:
+    title: "Facebook"
+    link: "https://facebook.com/kosmetism"
+  instagram:
+    title: "Instagram"
+    link: "https://instagram.com/kosmetism"
+  soundcloud:
+    title: "Soundcloud"
+    link: "https://soundcloud.com/kosmetism"
+  bandcamp:
+    title: "Bandcamp"
+    link: "https://kosmetism.bandcamp.com"
+  contact:
+    title: "Contact"
+    link: "mailto:ping@kosmetism.space"
+mixtapes:
+  - title: Italo Revival
+    image: https://pl.scdn.co/images/pl/default/592f2d9c2ae3e572e52b8efe75df58f7ca03dca1
+    link: https://open.spotify.com/user/voronianski/playlist/6A2yLW5XgzqSzQmIDUQNjO
+    source: spotify
+    genres:
+      - italo-disco
+      - post-disco
+      - hi-nrg
+  - title: Horror Wave
+    image: https://pl.scdn.co/images/pl/default/fd15282aedc819d6e86114f56de55b190bdcfb5a
+    link: https://open.spotify.com/user/voronianski/playlist/6Ub1WS6qFfsnbNfgekGIoF
+    source: spotify
+    genres:
+      - horror disco
+      - darksynth
+      - post-punk
