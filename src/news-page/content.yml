@@ -36,6 +36,8 @@ menu:
     title: "Contact"
     link: "mailto:ping@kosmetism.space"
 news:
+  - image: "https://kosmetism.space/assets/slow-and-easy-machine-talk-cover-invert.jpg"
+    imageLink: "https://kosmetism.bandcamp.com/album/slow-and-easy-machine-talk"
   - image: "https://f4.bcbits.com/img/0013162728_10.jpg"
     imageLink: "https://blackverbrecords.bandcamp.com/album/the-bedroom-tapes"
   - image: "https://i1.sndcdn.com/artworks-000326191404-ojx18v-original.jpg"
