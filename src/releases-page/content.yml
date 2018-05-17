@@ -43,6 +43,9 @@ releases:
     label: "self-released"
     type: "maxi-single"
     links:
+      'Spotify': "https://open.spotify.com/album/5Rd1ZHJMmHgigrRwD7f9Va"
+      'iTunes': "https://itunes.apple.com/us/album/slow-and-easy-machine-talk-single/1381525637"
+      'Google Play': "https://play.google.com/store/music/album/H_A_G_H_O_R_R_O_R_Slow_and_Easy_Machine_Talk?id=Bsr3aw7bgmcqmx2bh22dt3kntna"
   - title: "The Bedroom Tapes"
     project: "H A G H O R R O R"
     image: "https://f4.bcbits.com/img/a0454798269_10.jpg"
