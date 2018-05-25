@@ -36,8 +36,16 @@ menu:
     title: "Contact"
     link: "mailto:ping@kosmetism.space"
 news:
-  - image: "https://kosmetism.space/assets/slow-and-easy-machine-talk-cover-invert.jpg"
+  - image: "https://kosmetism.space/assets/haghorror-the-bedroom-tapes-qrates-promo.jpg"
+    imageLink: "https://qrates.com/projects/16261-the-bedroom-tapes"
+  - title: "New promo tracks out on 10/05/2018"
+    text: "As summer comes closer the sound becomes groovy, targeting dance floors with \"Slow and Easy / Machine Talk\" vibes here and there..."
+    image: "https://kosmetism.space/assets/slow-and-easy-machine-talk-cover-invert.jpg"
     imageLink: "https://kosmetism.bandcamp.com/album/slow-and-easy-machine-talk"
+    links:
+      - https://kosmetism.bandcamp.com/album/slow-and-easy-machine-talk
+      - https://open.spotify.com/album/5Rd1ZHJMmHgigrRwD7f9Va
+      - https://itunes.apple.com/us/album/slow-and-easy-machine-talk-single/1381525637
   - image: "https://f4.bcbits.com/img/0013162728_10.jpg"
     imageLink: "https://blackverbrecords.bandcamp.com/album/the-bedroom-tapes"
   - image: "https://i1.sndcdn.com/artworks-000326191404-ojx18v-original.jpg"
