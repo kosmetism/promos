@@ -57,6 +57,8 @@ function parseContent (p) {
 function renderTemplate (p) {
   return (store, done) => {
     nunjucks.configure(p);
+
+    store.timestamp = Date.now();
     const html = nunjucks.render('index.html', store);
 
     done(null, Object.assign(store, { html }));
