@@ -1,0 +1,74 @@
+title: "Ksmtk / H A G H O R R O R's Official Website including the latest music, albums, songs, music videos and updates"
+description: "Ksmtk / H A G H O R R O R's Official Website including the latest music, albums, songs, music videos and updates"
+icon: "https://kosmetism.space/assets/avatar.png"
+meta:
+  url: "https://kosmetism.space"
+  type: "website"
+  previewImg: "https://kosmetism.space/assets/compilations-page.png"
+  twitter: "@voronianski"
+menu:
+  news:
+    title: "News"
+    link: "/news"
+  about:
+    title: "About"
+    link: "/about"
+  releases:
+    title: "Releases"
+    link: "/releases"
+  compilations:
+    title: "Compilations"
+    link: "/compilations"
+    active: true
+  tumblr:
+    title: "Tumblr"
+    link: "https://kosmetism.tumblr.com"
+  facebook:
+    title: "Facebook"
+    link: "https://facebook.com/kosmetism"
+  instagram:
+    title: "Instagram"
+    link: "https://instagram.com/kosmetism"
+  soundcloud:
+    title: "Soundcloud"
+    link: "https://soundcloud.com/kosmetism"
+  bandcamp:
+    title: "Bandcamp"
+    link: "https://kosmetism.bandcamp.com"
+  contact:
+    title: "Contact"
+    link: "mailto:ping@kosmetism.space"
+compilations:
+  - title: "From the Edge of Beyond"
+    project: "Ksmtk"
+    track: "Reborn (feat. Madelyn Darling)"
+    image: "https://f4.bcbits.com/img/a1467646991_16.jpg"
+    date: "03/07/2018"
+    label: "Timeslave Recordings"
+    type: "ep"
+    links:
+      'Bandcamp': "https://timeslaves.bandcamp.com/album/from-the-edge-of-beyond"
+    formats:
+      - digital
+  - title: "Waves of Synth Vol.1"
+    project: "H A G H O R R O R"
+    track: "Lost Sanctuaries"
+    image: "https://f4.bcbits.com/img/a2013962356_10.jpg"
+    date: "01/02/2018"
+    label: "Waves of Synth"
+    type: "lp"
+    links:
+      'Bandcamp': "https://waves-of-synth.bandcamp.com/album/waves-of-synth-volume-1"
+    formats:
+      - digital
+  - title: "FutureSounds Vol.1"
+    project: "Ksmtk"
+    track: "Chronemics"
+    image: "https://f4.bcbits.com/img/a0126457853_10.jpg"
+    date: "09/08/2017"
+    label: "Timeslave Recordings"
+    type: "lp"
+    links:
+      'Bandcamp': "https://timeslaves.bandcamp.com/album/futuresounds-volume-1-redux"
+    formats:
+      - digital

@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,700,900);
+@import 'normalize/import-now';
+
+$fa-font-path: "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts" !default;
+@import 'font-awesome';
+
+$color: #fff;
+$bgcolor: #000;
+$red: #f63527;
+$serif: 'Playfair Display';
+$sans: 'Montserrat', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: $color;
+  background-color: $bgcolor;
+  font-family: $sans;
+}
+
+a {
+  color: $color;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: ' ';
+  display: table
+}
+.clearfix:after {
+  clear: both
+}
+
+.overlay-glitch {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+  z-index: 100;
+  opacity: .5;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 20px;
+  background: rgba(0, 0, 0, .8);
+  padding-top: 10px;
+  padding-bottom: 2px;
+  @media screen and (max-width: 360px) {
+    position: relative;
+    padding: 10px 20px 2px;
+    width: 100%;
+    left: 0;
+  }
+  &-item {
+    color: $color;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: color .2s ease;
+    &.active,
+    &:hover {
+      color: $red;
+    }
+    &:before {
+      content: '/';
+      color: $color !important;
+    }
+    &:first-child {
+      &:before {
+        content: '';
+      }
+    }
+  }
+}
+
+.wrapper {
+  max-width: 700px;
+  width: 90%;
+  margin: 80px 20px;
+
+  .compilation {
+    display: inline-block;
+    width: 200px;
+    float: left;
+    height: 350px;
+    overflow: hidden;
+    margin-right: 30px;
+    cursor: default;
+    user-select: none;
+    .image {
+      width: 200px;
+      height: 200px;
+    }
+    .title {
+      font-size: 12px;
+      font-weight: 400;
+      margin: 10px 0 0;
+    }
+    .alter-ego {
+      font-size: 13px;
+      font-weight: 400;
+      font-style: italic;
+      margin: 2px 0 5px;
+    }
+    .links {
+      margin-top: 5px;
+      a {
+        display: block;
+        font-size: 11px;
+        color: $red;
+      }
+    }
+    .date,
+    .label {
+      font-size: 9px;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-bottom: 1px;
+    }
+  }
+}

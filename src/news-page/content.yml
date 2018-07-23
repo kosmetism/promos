@@ -17,6 +17,9 @@ menu:
   releases:
     title: "Releases"
     link: "/releases"
+  compilations:
+    title: "Compilations"
+    link: "/compilations"
   tumblr:
     title: "Tumblr"
     link: "https://kosmetism.tumblr.com"
