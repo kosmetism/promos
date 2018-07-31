@@ -56,8 +56,8 @@ releases:
     label: "Black Verb Records"
     type: "ep"
     links:
-      'Cassette Tape': "https://blackverbrecords.bandcamp.com/album/the-bedroom-tapes"
-      'Vinyl (QRATES)': "https://qrates.com/projects/16261-the-bedroom-tapes"
+      'Cassette': "https://blackverbrecords.bandcamp.com/album/the-bedroom-tapes"
+ #     'Vinyl (QRATES)': "https://qrates.com/projects/16261-the-bedroom-tapes"
       'Spotify': "https://open.spotify.com/album/4XJ61Tuq9ydQwDMbpjIFWm"
       'iTunes': "https://itunes.apple.com/us/album/the-bedroom-tapes-ep/1355932816"
       'Google Play': "https://play.google.com/store/music/album/H_A_G_H_O_R_R_O_R_The_Bedroom_Tapes?id=Bqbr4yerngjuljrfebeesfo6ddu"
@@ -71,13 +71,13 @@ releases:
     label: "self-released"
     type: "maxi-single"
     links:
-      'Vinyl (QRATES)': "https://qrates.com/artists/kosmetism/items/15170"
+#      'Vinyl (QRATES)': "https://qrates.com/artists/kosmetism/items/15170"
       'Spotify': "https://open.spotify.com/album/6Ih8wh0Ok9AJNCVGt6L6G5"
       'iTunes': "https://itunes.apple.com/us/album/you-can-dance-ep/1347285031"
       'Google Play': "https://play.google.com/store/music/album/Ksmtk_You_Can_Dance?id=Bntbxwh3o7kq3m2r5ka6iftgnpa"
     formats:
       - digital
-      - vinyl (qrates campaign)
+#      - vinyl (qrates campaign)
   - title: "Reborn (feat. Madelyn Darling)"
     project: "Ksmtk"
     image: "https://f4.bcbits.com/img/a2551813638_10.jpg"
