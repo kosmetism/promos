@@ -41,7 +41,7 @@ menu:
 news:
   - title: "15/09/18 - live @ Berlin Fischladen"
     image: "https://kosmetism.space/assets/synth-at-fischladen-15_09_18.jpg"
-    imageLink: "https://www.residentadvisor.net/events/1153691"
+    # imageLink: "https://www.residentadvisor.net/events/1153691"
   # - image: "https://kosmetism.space/assets/haghorror-the-bedroom-tapes-qrates-promo.jpg"
   #   imageLink: "https://qrates.com/projects/16261-the-bedroom-tapes"
   - title: "New promo tracks out on 10/05/2018"
