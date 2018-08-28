@@ -41,10 +41,9 @@ menu:
 news:
   - title: "15/09/18 - live @ Berlin Fischladen"
     image: "https://kosmetism.space/assets/synth-at-fischladen-15_09_18.jpg"
-    imageLink: "https://residentadvisor.net"
-  - youtube: "https://www.youtube.com/embed/D5_XgmXWWMQ"
-  - image: "https://kosmetism.space/assets/haghorror-the-bedroom-tapes-qrates-promo.jpg"
-    imageLink: "https://qrates.com/projects/16261-the-bedroom-tapes"
+    imageLink: "https://www.residentadvisor.net/events/1153691"
+  # - image: "https://kosmetism.space/assets/haghorror-the-bedroom-tapes-qrates-promo.jpg"
+  #   imageLink: "https://qrates.com/projects/16261-the-bedroom-tapes"
   - title: "New promo tracks out on 10/05/2018"
     text: "As summer comes closer the sound becomes groovy, targeting dance floors with \"Slow and Easy / Machine Talk\" vibes here and there..."
     image: "https://kosmetism.space/assets/slow-and-easy-machine-talk-cover-invert.jpg"
@@ -53,6 +52,7 @@ news:
       - https://kosmetism.bandcamp.com/album/slow-and-easy-machine-talk
       - https://open.spotify.com/album/5Rd1ZHJMmHgigrRwD7f9Va
       - https://itunes.apple.com/us/album/slow-and-easy-machine-talk-single/1381525637
+  - youtube: "https://www.youtube.com/embed/D5_XgmXWWMQ"
   - image: "https://f4.bcbits.com/img/0013162728_10.jpg"
     imageLink: "https://blackverbrecords.bandcamp.com/album/the-bedroom-tapes"
   - image: "https://i1.sndcdn.com/artworks-000326191404-ojx18v-original.jpg"
@@ -65,8 +65,8 @@ news:
       - https://blackverbrecords.bandcamp.com/album/the-bedroom-tapes
       - https://open.spotify.com/album/4XJ61Tuq9ydQwDMbpjIFWm
       - https://itunes.apple.com/us/album/the-bedroom-tapes-ep/1355932816
-  - image: "https://kosmetism.space/assets/ksmtk-you-can-dance-qrates-v2.jpg"
-    imageLink: "https://qrates.com/artists/kosmetism/items/15170"
+  # - image: "https://kosmetism.space/assets/ksmtk-you-can-dance-qrates-v2.jpg"
+  #   imageLink: "https://qrates.com/artists/kosmetism/items/15170"
   - youtube: "https://www.youtube.com/embed/woZ3jfa2pJA"
   - title: "Italo wave \"You Can Dance\" out on 13/02/2018"
     image: "https://f4.bcbits.com/img/a0534730252_10.jpg"
