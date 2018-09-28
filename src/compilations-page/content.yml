@@ -39,6 +39,18 @@ menu:
     title: "Contact"
     link: "mailto:ping@kosmetism.space"
 compilations:
+  - title: "Fear the Future Vol.2"
+    project: "Ksmtk"
+    track: "Reborn (feat. Madelyn Darling)"
+    image: "https://f4.bcbits.com/img/a1761896933_10.jpg"
+    date: "28/09/2018"
+    label: "Timeslave Recordings"
+    type: "lp"
+    links:
+      'Bandcamp': "https://timeslaves.bandcamp.com/album/fear-the-future-vol-2-enter-the-void"
+    formats:
+      - digital
+      - cassette
   - title: "From the Edge of Beyond"
     project: "Ksmtk"
     track: "Reborn (feat. Madelyn Darling)"

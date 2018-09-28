@@ -39,11 +39,17 @@ menu:
     title: "Contact"
     link: "mailto:ping@kosmetism.space"
 news:
+  - title: Fear the Future Vol.2 compilation out on 28/09/18
+    image: https://f4.bcbits.com/img/a1761896933_10.jpg
+    imageLink: https://timeslaves.bandcamp.com/album/fear-the-future-vol-2-enter-the-void
+    text: Timeslave Recordings made a great mix out of synthwave produced by new artists in the scene.
+    links:
+      - https://timeslaves.bandcamp.com/album/fear-the-future-vol-2-enter-the-void
   - title: "15/09/18 - live @ Berlin Fischladen"
     image: "https://kosmetism.space/assets/synth-at-fischladen-15_09_18.jpg"
-    # imageLink: "https://www.residentadvisor.net/events/1153691"
-  # - image: "https://kosmetism.space/assets/haghorror-the-bedroom-tapes-qrates-promo.jpg"
-  #   imageLink: "https://qrates.com/projects/16261-the-bedroom-tapes"
+  # imageLink: "https://www.residentadvisor.net/events/1153691"
+# - image: "https://kosmetism.space/assets/haghorror-the-bedroom-tapes-qrates-promo.jpg"
+#   imageLink: "https://qrates.com/projects/16261-the-bedroom-tapes"
   - title: "New promo tracks out on 10/05/2018"
     text: "As summer comes closer the sound becomes groovy, targeting dance floors with \"Slow and Easy / Machine Talk\" vibes here and there..."
     image: "https://kosmetism.space/assets/slow-and-easy-machine-talk-cover-invert.jpg"
@@ -65,8 +71,8 @@ news:
       - https://blackverbrecords.bandcamp.com/album/the-bedroom-tapes
       - https://open.spotify.com/album/4XJ61Tuq9ydQwDMbpjIFWm
       - https://itunes.apple.com/us/album/the-bedroom-tapes-ep/1355932816
-  # - image: "https://kosmetism.space/assets/ksmtk-you-can-dance-qrates-v2.jpg"
-  #   imageLink: "https://qrates.com/artists/kosmetism/items/15170"
+# - image: "https://kosmetism.space/assets/ksmtk-you-can-dance-qrates-v2.jpg"
+#   imageLink: "https://qrates.com/artists/kosmetism/items/15170"
   - youtube: "https://www.youtube.com/embed/woZ3jfa2pJA"
   - title: "Italo wave \"You Can Dance\" out on 13/02/2018"
     image: "https://f4.bcbits.com/img/a0534730252_10.jpg"
@@ -76,7 +82,7 @@ news:
       - https://kosmetism.bandcamp.com/album/you-can-dance
       - https://open.spotify.com/album/6Ih8wh0Ok9AJNCVGt6L6G5
       - https://itunes.apple.com/us/album/you-can-dance-ep/1347285031
-  - title: "Waves of Synth Vol. 1 compilation released on Bandcamp on 01/02/2018"
+  - title: "Waves of Synth Vol. 1 compilation released on 01/02/2018"
     image: "https://f4.bcbits.com/img/a2013962356_10.jpg"
     imageLink: "https://waves-of-synth.bandcamp.com/album/waves-of-synth-volume-1"
     text: "Proud to be a part of it with H A G H O R R O R's \"Lost Sanctuaries\"."
