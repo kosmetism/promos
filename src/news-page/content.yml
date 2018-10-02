@@ -39,15 +39,11 @@ menu:
     title: "Contact"
     link: "mailto:ping@kosmetism.space"
 news:
-  - title: Fear the Future Vol.2 compilation out on 28/09/18
-    image: https://f4.bcbits.com/img/a1761896933_10.jpg
-    imageLink: https://timeslaves.bandcamp.com/album/fear-the-future-vol-2-enter-the-void
-    text: Timeslave Recordings made a great mix out of synthwave produced by new artists in the scene.
-    links:
-      - https://timeslaves.bandcamp.com/album/fear-the-future-vol-2-enter-the-void
+  - image: "https://f4.bcbits.com/img/a3220616507_10.jpg"
+    imageLink: "https://kosmetism.bandcamp.com/album/love-theme"
   - title: "15/09/18 - live @ Berlin Fischladen"
     image: "https://kosmetism.space/assets/synth-at-fischladen-15_09_18.jpg"
-  # imageLink: "https://www.residentadvisor.net/events/1153691"
+#   imageLink: "https://www.residentadvisor.net/events/1153691"
 # - image: "https://kosmetism.space/assets/haghorror-the-bedroom-tapes-qrates-promo.jpg"
 #   imageLink: "https://qrates.com/projects/16261-the-bedroom-tapes"
   - title: "New promo tracks out on 10/05/2018"
