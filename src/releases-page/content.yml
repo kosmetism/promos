@@ -39,6 +39,21 @@ menu:
     title: "Contact"
     link: "mailto:ping@kosmetism.space"
 releases:
+  - title: "Oui"
+    project: "Ksmtk"
+    image: "https://f4.bcbits.com/img/a2144061120_10.jpg"
+    date: "14/12/2018"
+    label: "Timeslave Recordings"
+    type: "lp"
+    links:
+      'Vinyl / Cassette': "https://timeslaves.bandcamp.com/album/oui"
+      'Spotify': "https://open.spotify.com/album/0tU0wYaoT5TJ6a659LF81v"
+      'iTunes': "https://itunes.apple.com/us/album/oui/1447450096"
+      'Google Play': ""
+    formats:
+      - digital
+      - vinyl
+      - cassette
   - title: "Love Theme (feat. Madelyn Darling)"
     project: "H A G H O R R O R"
     image: "https://f4.bcbits.com/img/a3220616507_10.jpg"
