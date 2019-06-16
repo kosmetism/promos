@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i);
 @import 'normalize/import-now';
 
 $fa-font-path: "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts" !default;
@@ -7,7 +7,6 @@ $fa-font-path: "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts" !defau
 $color: #fff;
 $bgcolor: #000;
 $red: #f63527;
-$serif: 'Playfair Display';
 $sans: 'Montserrat', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
 
 html {
@@ -70,7 +69,7 @@ a {
   &-item {
     color: $color;
     font-size: 11px;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-decoration: none;

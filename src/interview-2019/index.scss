@@ -1,13 +1,13 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i|Neuton:400,400i);
 @import 'normalize/import-now';
 
 $fa-font-path: "https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts" !default;
 @import 'font-awesome';
 
-$color: #fff;
-$bgcolor: #000;
+$color: #000;
+$bgcolor: #fff;
 $red: #f63527;
-$serif: 'Playfair Display';
+$serif: 'Neuton';
 $sans: 'Montserrat', -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;
 
 html {
@@ -39,15 +39,6 @@ a {
   }
 }
 
-.clearfix:before,
-.clearfix:after {
-  content: ' ';
-  display: table
-}
-.clearfix:after {
-  clear: both
-}
-
 .overlay-glitch {
   display: block;
   position: fixed;
@@ -60,14 +51,14 @@ a {
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
   z-index: 100;
-  opacity: .5;
+  opacity: .15;
 }
 
 .menu {
   position: fixed;
   top: 0;
   left: 20px;
-  background: rgba(0, 0, 0, .8);
+  background: rgba(255, 255, 255, .8);
   padding-top: 10px;
   padding-bottom: 2px;
   @media screen and (max-width: 360px) {
@@ -101,48 +92,32 @@ a {
 }
 
 .wrapper {
-  max-width: 700px;
+  max-width: 640px;
   width: 90%;
   margin: 80px 20px;
-
-  .release {
-    display: inline-block;
-    width: 200px;
-    float: left;
-    height: 350px;
-    overflow: hidden;
-    margin-right: 30px;
-    cursor: default;
-    user-select: none;
-    .image {
-      width: 200px;
-      height: 200px;
+  .question {
+    margin-bottom: 50px;
+    .ask {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: .5px;
+      margin: 0 auto 15px;
+      line-height: 1.5;
     }
-    .title {
-      font-size: 12px;
+    .image-link {
+      display: block;
+    }
+    .image,
+    .youtube-embed {
+      width: 100%;
+      margin: 6px auto;
+    }
+    .answer {
+      font-family: $serif;
+      font-size: 18px;
       font-weight: 400;
-      margin: 10px 0 0;
-    }
-    .alter-ego {
-      font-size: 13px;
-      font-weight: 400;
-      font-style: italic;
-      margin: 2px 0 5px;
-    }
-    .links {
-      margin-top: 5px;
-      a {
-        display: block;
-        font-size: 11px;
-        color: $red;
-      }
-    }
-    .date,
-    .label {
-      font-size: 9px;
-      font-weight: 400;
-      text-transform: uppercase;
-      margin-bottom: 1px;
+      margin: 6px auto;
+      line-height: 1.5;
     }
   }
 }

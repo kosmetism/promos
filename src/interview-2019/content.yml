@@ -1,0 +1,65 @@
+title: "Ksmtk / H A G H O R R O R's Official Website including the latest music, albums, songs, music videos and updates"
+description: "Ksmtk / H A G H O R R O R's Official Website including the latest music, albums, songs, music videos and updates"
+icon: "https://kosmetism.space/assets/avatar.png"
+meta:
+  url: "https://kosmetism.space"
+  type: "website"
+  previewImg: "https://kosmetism.space/assets/news-page.png"
+  twitter: "@voronianski"
+menu:
+  news:
+    title: "News"
+    link: "/"
+  about:
+    title: "About"
+    link: "/about"
+  releases:
+    title: "Releases"
+    link: "/releases"
+  compilations:
+    title: "Compilations"
+    link: "/compilations"
+  tumblr:
+    title: "Tumblr"
+    link: "https://kosmetism.tumblr.com"
+  facebook:
+    title: "Facebook"
+    link: "https://facebook.com/kosmetism"
+  instagram:
+    title: "Instagram"
+    link: "https://instagram.com/kosmetism"
+  soundcloud:
+    title: "Soundcloud"
+    link: "https://soundcloud.com/kosmetism"
+  bandcamp:
+    title: "Bandcamp"
+    link: "https://kosmetism.bandcamp.com"
+  contact:
+    title: "Contact"
+    link: "mailto:ping@kosmetism.space"
+
+interview:
+  - ask: Hi Dima 👋 Could you please briefly introduce yourself?
+    answer: Bongiorno! My name is Dima Kosmetika and I’m making retro electronic music in my Berlin-based bedroom studio, though originally I’m from Kiev, Ukraine. I do it in my spare time for the last 2 years already. Usually I release my works on behalf of 2 slightly different solo projects that are named Ksmtk and H A G H O R R O R.
+  - ask: Tell us more about Ksmtk and H A G H O R R O R and how the projects came into fruition?
+    answer: The idea of H A G H O R R O R persona came out of my desire to record and experiment with more dark and cinematographic sound. Before it I released several retrowave tracks as Ksmtk (short form of “Kosmetika” which means “Cosmetics” in German), its’ genre can be described as dreamy 80s synthwave. But I quickly realized that I do not want to stick only to these tags. So I decided to create a new name for covering drastically different sounds that were coming out of my synths, so to say. This way it was also easier for me to focus on making things actually done because with introducing H A G H O R R O R concept I’ve got a clear image of what I want to achieve.
+  - ask: Could you also share some info about your last release?
+    answer: Sure! in December 2018 I’ve got my music released on vinyl for the first time! It’s a split LP from my Ksmtk project with Californian-based synthwave lad called BVSMV. We share not only the similar approach in forming the project-names but also the vibe and atmosphere of the tracks, as they all tend to mimic the original 80s synthpop aesthetic. The album is called “Oui” and was released as limited edition (only 100 vinyls and 50 cassettes!) by our friends from TimeSlave Recordings label. It also features several prominent collaborations - the artwork was made by a very talented illustrator Mizucat, my song “Reborn” features guest vocals from amazing Madelyn Darling and, last but not least, one of my favorite contemporary synthwave acts Night Raptor made a remix for my debut single “Chronemics”. So I’m quite happy how it went actually.
+  - ask: So what is your musical background?
+    answer: I made my first attempts in making music back in 2009 when I lived in Kiev and studied in University. I recorded several rough post-punk inspired tracks on my old PC at home with some weird software instruments and bass guitar. The sound was cold, cheezy and primitive but one of my friends even made a video for the track. The project name was The Not Popular Adults, you can probably still find some tracks on the web. <br/>Then I abandoned this project for an indefinite time. I was very passionate about the world of software engineering that I was just discovering for myself :) Also there were not so much free time to spend on learning music. I do not have any musical education, so I had to learn everything by myself. I returned to the process of creating music back in 2016 when I realized that it’s still something that I want to do, something that keeps me inspired everyday. So I bought my first MIDI-controller, DAW and started to practice. After a year first Ksmtk’s tracks appeared.
+  - ask: Top 5 musical influences?
+    answer: I’m a huge fan of Johnny Jewel’s works, so almost all acts from Italians Do It Better label can be considered as influences, especially Chromatics and Symmetry. Another contemporary acts that I’d like to point out are S U R V I V E and Terrortron. I really love dark and melodic synthwave produced by them. And obviously I’m still really into late 70s - early 80s new wave/post-punk/whatever related sound. Constantly opening new acts that passed me by for some reason - for example, I only recently discovered for myself early works of such cult goth guys as Christian Death. But as for main influence from that era I would say it’s Suicide.
+  - ask: Favourite colour?
+    answer: I think currently it’s turquoise :)
+  - ask: Musicians can be very enthusiastic and devoted to their favourite equipment. Do you feel this way about any of your gear/hardware/DAW?
+    answer: I agree :) I really like the DAW that I’m using which is Logic Pro X. I think as long as I’m getting better with it and my confidence grows, my devotion to it also grows. Also I feel that I’m in a slow process of switching from software instruments to hardware ones. My latest toy is hardware step sequencer Korg SQ-1. The funny thing is that I actually connect it to DAW to control and produce sounds from software synths that emulate old-school ones! It may sound as a silly setup but I really like this kinda unusual decisions that limit you in someway and boost creativity. <br />Another hardware synthesizer that I’m using a lot is Roland JD-Xi. It’s small but very powerful machine, I can easily prototype tracks and make demos with it alone and start using DAW only when recording.
+  - ask: Dream holiday destination?
+    answer: Tokyo, Japan
+  - ask: Do you have any recommendations for those seeking an introduction to Berlin and German electronic music? What are some of your current artists making music in Berlin?
+    answer: The best historical introduction is to listen to some of Tangerine Dreams records, especially from the years 1976-79. If you like synthwave you can check the cool guys like LeveL -1 or the ones from  “Made in Germany Vol. 1” synthwave compilation.
+  - ask: You also described H A G H O R R O R as “a soundtrack for some imaginary thriller movie”. What are some of your favourite movies? Are you a fan of horror, as the name H A G H O R R O R suggests?
+    answer: Not sure if “fan” is the right word, also “horror” is quite a broad term. I would say that I really like thrillers, suspense, noir movies. Also music plays an important role for me, sometimes you can find and watch the title only by a soundtrack recording that took your interest. From the movies that I watched recently I can point out “Blue Velvet” by David Lynch it made a great impression on me in all aspects. Pure classic.
+  - ask: Do you have any plans for 2019? What can we expect from H A G H O R R O R or Ksmtk?
+    answer: Yes! I’m working on new tracks currently, though not very actively. I think most of the tracks tend to be more in Ksmtk’s style, so you can expect something new to be released from this project. I want to make a full-length release with 8-9 tracks, however I don’t know when exactly everything will be ready. Also negotiations with labels and getting the release fit in their schedule take some time. I think the end of this year is more less realistic term.
+  - ask: Thanks a lot for your answers and hope to hear new music from you as soon as possible, Dima!
+    answer: Thank you too! Stay tuned, ciao!

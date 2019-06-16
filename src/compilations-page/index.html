@@ -54,7 +54,7 @@
   <div class="wrapper clearfix">
   {% for compilation in compilations %}
     <div class="compilation">
-      <img src="{{compilation.image}}" class="image" />
+      <img src="{{compilation.image}}" class="image" alt="{{compilation.title}} artwork" />
       <h2 class="title">{{compilation.title | safe}}</h2>
       <h3 class="alter-ego">{{compilation.project}}</h3>
       <h3 class="track">{{compilation.track}}</h3>
@@ -62,7 +62,7 @@
       <div class="date">{{compilation.date}}</div>
       <div class="links">
       {% for name, link in compilation.links %}
-        <a href="{{link}}">{{name}}</a>
+        <a href="{{link}}" target="_blank" rel="noopener noreferrer">{{name}}</a>
       {% endfor %}
       </div>
     </div>

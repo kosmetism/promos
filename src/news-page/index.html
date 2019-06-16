@@ -62,7 +62,7 @@
       {% endif %}
 
       {% if post.image %}
-        {% if post.imageLink %}<a href="{{post.imageLink}}" class="image-link" target="_blank">{% endif %}
+        {% if post.imageLink %}<a href="{{post.imageLink}}" class="image-link" target="_blank" rel="noopener noreferrer">{% endif %}
         <img src="{{post.image}}" class="image" />
         {% if post.imageLink %}</a>{% endif %}
       {% endif %}

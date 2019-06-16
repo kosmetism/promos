@@ -51,19 +51,28 @@
   {% endfor %}
   </div>
 
-  <div class="wrapper clearfix">
-  {% for release in releases %}
-    <div class="release">
-      <img src="{{release.image}}" class="image" alt="{{release.title}} artwork" />
-      <h2 class="title">{{release.title | safe}}</h2>
-      <h3 class="alter-ego">{{release.project}}</h3>
-      <div class="label">{{release.type}} / {{release.label}}</div>
-      <div class="date">{{release.date}}</div>
-      <div class="links">
-      {% for name, link in release.links %}
-        <a href="{{link}}" target="_blank" rel="noopener noreferrer">{{name}}</a>
-      {% endfor %}
-      </div>
+  <div class="wrapper">
+  {% for question in interview %}
+    <div class="question">
+      {% if question.ask %}
+      <h2 class="ask">{{question.ask}}</h2>
+      {% endif %}
+
+      {% if question.image %}
+        {% if question.imageLink %}<a href="{{question.imageLink}}" class="image-link" target="_blank" rel="noopener noreferrer">{% endif %}
+        <img src="{{question.image}}" class="image" />
+        {% if question.imageLink %}</a>{% endif %}
+      {% endif %}
+
+      {% if question.youtube %}
+        <div class="youtube-embed">
+          <iframe width="100%" height="315" src="{{question.youtube}}?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+      {% endif %}
+
+      {% if question.answer %}
+        <div class="answer">{{question.answer | safe}}</div>
+      {% endif %}
     </div>
   {% endfor %}
   </div>

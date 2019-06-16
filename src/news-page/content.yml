@@ -107,12 +107,12 @@ news:
       - https://kosmetism.bandcamp.com/track/reborn-feat-madelyn-darling
       - https://open.spotify.com/album/7eawvvrchHynCubovBCxJN
       - https://itunes.apple.com/us/album/reborn-feat-madelyn-darling/1332349202
-  - title: "Interview for Identical Records"
-    image: "https://kosmetism.space/assets/avatar.png"
-    imageLink: "https://www.identicalrecords.com/haghorror"
-    text: "Answered few questions about debut H A G H O R R O R release and revealed some inspiration behind it."
-    links:
-      - https://www.identicalrecords.com/haghorror
+  # - title: "Interview for Identical Records"
+  #   image: "https://kosmetism.space/assets/avatar.png"
+  #   imageLink: "https://www.identicalrecords.com/haghorror"
+  #   text: "Answered few questions about debut H A G H O R R O R release and revealed some inspiration behind it."
+  #   links:
+  #     - https://www.identicalrecords.com/haghorror
   - youtube: "https://www.youtube.com/embed/5dPNAVIdBqg"
   - title: "H A G H O R R O R debut single is out on 17/11/2017"
     image: "https://f4.bcbits.com/img/a3983791241_10.jpg"
