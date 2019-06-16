@@ -39,6 +39,18 @@ menu:
     title: "Contact"
     link: "mailto:ping@kosmetism.space"
 releases:
+  - title: "Tropical Disaster 🌴"
+    project: "Ksmtk"
+    image: "https://f4.bcbits.com/img/a2842454070_10.jpg"
+    date: "21/06/2019"
+    label: "not on label"
+    type: "single"
+    links:
+      'Spotify': "#"
+      'iTunes': "https://music.apple.com/us/album/tropical-disaster-single/1467761407"
+      'Google Play': "#"
+    formats:
+      - digital
   - title: "Oui"
     project: "Ksmtk"
     image: "https://f4.bcbits.com/img/a2144061120_10.jpg"
