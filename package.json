@@ -1,15 +1,13 @@
 {
-  "name": "haghorror-site",
+  "name": "kosmetism-promos",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "node ./bin/build",
     "server": "node ./bin/server",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "author": "Dmitri Voronianski <dmitri.voronianski@gmail.com>",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "dependencies": {
     "async": "^2.5.0",
     "babel-core": "^6.26.3",
@@ -21,14 +19,12 @@
     "express": "^4.16.2",
     "font-awesome": "^4.7.0",
     "fs-extra": "^4.0.2",
+    "node-sass": "^4.12.0",
     "normalize-scss": "^7.0.0",
     "nunjucks": "^3.2.0",
     "soundcloud-audio": "^1.2.2",
     "uglify-js": "^3.1.3",
     "walkdir": "0.0.12",
     "yamljs": "^0.3.0"
-  },
-  "devDependencies": {
-    "node-sass": "^4.12.0"
   }
 }
