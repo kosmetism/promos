@@ -39,6 +39,13 @@ menu:
     title: "Contact"
     link: "mailto:ping@kosmetism.space"
 news:
+  - image: https://f4.bcbits.com/img/a3783222638_10.jpg
+    imageLink: https://kosmetism.bandcamp.com/album/forgotten-memories
+    text: New year is for new tracks and new collaborations 💛.
+    links:
+      - https://kosmetism.bandcamp.com/album/forgotten-memories
+      - https://open.spotify.com/album/10GiQ8JIdofpSn6BmAzyLr
+      - https://music.apple.com/us/album/forgotten-memories-single/1490203472
   - vimeo: https://player.vimeo.com/video/358916653
   - title: 07/09/19 - live @ Tech Noir Berlin
     image: https://kosmetism.space/assets/dima-kosmetika-tech-noir-poster.jpg
