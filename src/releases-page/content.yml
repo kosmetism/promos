@@ -39,16 +39,28 @@ menu:
     title: "Contact"
     link: "mailto:ping@kosmetism.space"
 releases:
-  - title: "Tropical Disaster 🌴"
+  - title: "Forgotten Memories (feat. JJ Mist)"
+    project: "Ksmtk"
+    image: "https://f4.bcbits.com/img/a3783222638_10.jpg"
+    date: "02/01/2020"
+    label: "not on label"
+    type: "single"
+    links:
+      'Spotify': "https://open.spotify.com/album/10GiQ8JIdofpSn6BmAzyLr?si=6kMS6IODQ5uPYoK3hebpJQ"
+      'iTunes': "https://music.apple.com/us/album/forgotten-memories-single/1490203472"
+      'Google Play': "https://play.google.com/store/music/album/Ksmtk_Forgotten_Memories?id=Byj5g3u74uhkunyxf3dznenba5u"
+    formats:
+      - digital
+  - title: "Tropical Disaster"
     project: "Ksmtk"
     image: "https://f4.bcbits.com/img/a2842454070_10.jpg"
     date: "21/06/2019"
     label: "not on label"
     type: "single"
     links:
-      'Spotify': "#"
+      'Spotify': "https://open.spotify.com/album/0ialEijP4RdD6pvFX0Jt7w?si=dPJxBfgHTBmHSJoqgVglqQ"
       'iTunes': "https://music.apple.com/us/album/tropical-disaster-single/1467761407"
-      'Google Play': "#"
+      'Google Play': "https://play.google.com/store/music/album/Ksmtk_Tropical_Disaster?id=B7zi4w2rplvh7whdmgysom7izei"
     formats:
       - digital
   - title: "Oui"
