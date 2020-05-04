@@ -39,6 +39,15 @@ menu:
     title: "Contact"
     link: "mailto:ping@kosmetism.space"
 news:
+  - image: https://f4.bcbits.com/img/a3926359067_10.jpg
+    imageLink: https://kosmetism.bandcamp.com/album/chronemics-remixed
+    text: It's almost 3 years since a debut Ksmtk "Chronemics" single was released. This anniversary EP features few memorable remixes of the original track produced by my favourite synth acts - Marvel83' and Night Raptor 🖤.
+    links:
+      - https://kosmetism.bandcamp.com/album/chronemics-remixed
+      - https://open.spotify.com/album/7nv0HoemSTSAE3TcWQRCqx
+      - https://music.apple.com/us/album/chronemics-remixed-single/1507593466
+  - image: https://kosmetism.space/assets/midnight-tensions-cover.jpg
+    imageLink: https://bunnyx.bandcamp.com/track/midnight-tensions-feat-ksmtk
   - image: https://f4.bcbits.com/img/a3783222638_10.jpg
     imageLink: https://kosmetism.bandcamp.com/album/forgotten-memories
     text: New year is for new tracks and new collaborations 💛.

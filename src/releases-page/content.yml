@@ -39,6 +39,29 @@ menu:
     title: "Contact"
     link: "mailto:ping@kosmetism.space"
 releases:
+  - title: "Chronemics Remixed"
+    project: "Ksmtk"
+    image: "https://f4.bcbits.com/img/a3926359067_10.jpg"
+    date: "30/04/2020"
+    label: "not on label"
+    type: "single"
+    links:
+      'Spotify': "https://open.spotify.com/album/7nv0HoemSTSAE3TcWQRCqx?si=-9lbRsIHR4e6abrA75ZnHg"
+      'iTunes': "https://music.apple.com/us/album/chronemics-remixed-single/1507593466?uo=4&app=itunes&ct=457317&at=1001lbRT"
+      'Google Play': "https://play.google.com/store/music/album/Ksmtk_Chronemics_Remixed?id=B5jazg2dhxleqol6qvf6hl74xsi"
+    formats:
+      - digital
+  - title: "Midnight Tensions"
+    project: "Ksmtk & Bunny X"
+    image: "https://f4.bcbits.com/img/a2496567113_16.jpg"
+    date: "29/04/2020"
+    label: "not on label"
+    type: "single"
+    links:
+      'Spotify': "https://open.spotify.com/album/1k8XlmcWdMYiDuvu1d3xXI?highlight=spotify:track:3M6SmrVugy6t7aPIb1siDk"
+      'iTunes': "https://music.apple.com/us/album/midnight-tensions-feat-ksmtk/1508741818?i=1508741819&uo=4&app=itunes&ct=453228&at=1001lbRT"
+    formats:
+      - digital
   - title: "Forgotten Memories (feat. JJ Mist)"
     project: "Ksmtk"
     image: "https://f4.bcbits.com/img/a3783222638_10.jpg"
