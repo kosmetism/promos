@@ -9,7 +9,7 @@
   "author": "Dmitri Voronianski <dmitri.voronianski@gmail.com>",
   "license": "UNLICENSED",
   "dependencies": {
-    "async": "^2.5.0",
+    "async": "^2.6.4",
     "babel-core": "^6.26.3",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
